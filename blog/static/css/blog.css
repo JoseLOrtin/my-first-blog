@@ -1,3 +1,4 @@
+
 h1 a {
     color: #5F8780;
     font-family: 'Francois One';
@@ -10,13 +11,20 @@ h2 a {
 }
 
 body {
+
     padding-left: 30px;
+    border-bottom: 1px solid #C6EC8C;
+    background-image: url("images/A.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 .page-header {
     background-color: #A1ADAB;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -26,7 +34,9 @@ body {
 }
 
 .content {
-    margin-left: 300px;
+    margin-left: 350px;
+
+
 }
 
 h1, h2, h3, h4 {
@@ -50,9 +60,11 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
-    margin-right: 20px;
+    font-size: 15pt;
+    margin-right: 15px;
 }
+
+
 
 .post {
     margin-bottom: 70px;
